@@ -10,4 +10,9 @@ class UsersControllers {
   store() {
     // criar
   }
+  auth() {
+    //autenticação
+  }
 }
+
+export { UsersControllers }
