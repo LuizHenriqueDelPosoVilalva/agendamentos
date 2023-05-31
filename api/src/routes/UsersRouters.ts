@@ -1,7 +1,7 @@
 import { Router } from 'express'
 import { UsersControllers } from '../controllers/UsersControllers'
 
-class UsersRoutes {
+class UsersRouters {
   private router: Router
   private userControllers: UsersControllers
   constructor() {
@@ -17,4 +17,4 @@ class UsersRoutes {
   }
 }
 
-export { UsersRoutes }
+export { UsersRouters }
